@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-image: url("../imgs/bg-hero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.carousel-indicators{
+    top: 90%;
+    /* width: 5rem;
+    height: 5rem; */
+}
+
+.carousel-indicators button{
+    width: 1rem !important;
+    height: 1rem !important;
+    border-radius: 50%;
+    border: 2px solid blue;
+}
+
+.carousel-inner{
+    width: 80%;
+    height: 11rem;
+}
+.carousel-item img{
+    height: 9rem !important;
+}
