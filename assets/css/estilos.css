@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 header{
@@ -14,6 +14,10 @@ header{
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.color-nav{
+    background-color: #373A3C;
+}
 .carousel-indicators{
     top: 90%;
     /* width: 5rem;
@@ -21,10 +25,9 @@ header{
 }
 
 .carousel-indicators button{
-    width: 1rem !important;
-    height: 1rem !important;
+    width: 0.8rem !important;
+    height: 0.8rem !important;
     border-radius: 50%;
-    border: 2px solid blue;
 }
 
 .carousel-inner{
@@ -33,4 +36,8 @@ header{
 }
 .carousel-item img{
     height: 9rem !important;
+}
+
+.card-img-top{
+    height: 13rem;
 }
