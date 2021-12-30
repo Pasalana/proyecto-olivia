@@ -19,11 +19,11 @@ $('#enviarCorreo').click(function () {
     alert("El correo fue enviado correctamente...")
 });
 
-$("h3").dblclick(function(){
+$("h3").click(function(){
     $(this).css("color", 'red');
     });
 
-    $('.card-title').click(function () {
+    $('.card-title').dblclick(function () {
         $('.card-text').toggle();
     });
     
